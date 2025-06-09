@@ -7,7 +7,7 @@ const increaseByTenPercent = (arr) => {
 }
 
 // [ '110.00', '132.00', '154.00', '165.00', '1098.90' ]
-console.log(increaseByTenPercent([100, 120, 140, 150, 999]))
+console.log(increaseByTenPercent([100, 120, 140, 150, 999]));
 
 // Not a valid array
-console.log(increaseByTenPercent([100, 120, 140, 150, 999, 'hello']))
+console.log(increaseByTenPercent([100, 120, 140, 150, 999, 'hello']));
